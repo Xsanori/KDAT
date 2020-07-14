@@ -5,7 +5,7 @@ Android system.new.dat image unpacking tool called KitchenDat
 1. In terminal, enter any directory (for example, homedir)
 > cd ~/
 2. Download the tool
-> git clone https://github.com/Xsanori/KDAT.git -b master KDAT
+> git clone https://github.com/maxmesa/KDAT.git -b master KDAT
 3. Enter the downloaded folder
 > cd KDAT
 4. Make all files executable
