@@ -1,4 +1,10 @@
 #!/bin/bash
+if [ ! -f "$(pwd)/file_contexts" ]; then
+    echo "#############################"
+    echo "# Cannot find file_contexts #"
+    echo "#############################"
+    exit
+fi
 echo "Enter system size in bytes:"
 read XSSZ
 ./make_ext4fs -T 0 -S file_contexts -l $XSSZ -a system system_new.img system/
